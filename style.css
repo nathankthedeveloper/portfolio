@@ -1,0 +1,106 @@
+
+/* Heading level 1 tag */
+h1{
+		font-family: "Lucida Handwriting";
+		font-size: 48px;
+		color: #2b2d42;
+		text-align: center;
+		margin-bottom: 0;
+		margin-top: 0;
+  }
+
+/* p tag inside header */
+header p{
+	font-family: monospace;
+	font-size: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+/* Body tag with the wooden background */
+body{
+
+	background-image: url(images/brown-wooden-plank.jpg);
+	margin: 20px;
+}
+
+/* p tag and orderlist inside main and body */
+body p, main ol {
+	font-family: garamond;
+	font-size: 20px;
+	color: #2b2d42;
+	padding: 2px 100px 2px 100px;
+
+}
+
+main ol{
+	margin-left: 80px;
+}
+
+
+/* heading level 2 tag */
+body h2{
+	font-family:"Lucida Handwriting";
+	font-size: 32px;
+	color: #2b2d42;
+	text-align: center;
+}
+
+ footer h3{
+	font-family:"Lucida Handwriting";
+	font-size: 26px;
+	color: #2b2d42;
+	text-align: center;
+}
+/* Footer h3, paragraph tags properties */
+footer p{
+	font-family:garamond;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+footer p, footer h3{
+	text-align: center;
+}
+
+/* horizontal line*/
+hr{
+	height: 4px solid;
+	margin: 100px;
+}
+/* Footer unorderlist and list items properties */
+footer ul{
+	margin-left: 270px;
+}
+
+footer ul li{
+  margin: auto;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+/* My website link actions */
+a:link{color:green;}
+a:visited{color:red;}
+a:hover{color:blue;}
+a:active{color:lightgray;}
+
+/* page wrapper class for the entire body page */
+.wrapper-page{
+	background-color: #bdb76b;
+	width: 840px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+	opacity: 0.8;
+}
+
+/*Image class properties*/
+.image-circle{
+	border-radius: 50%;
+	display: block;
+	margin-left: 180px;
+	margin-top: 40px;
+}
